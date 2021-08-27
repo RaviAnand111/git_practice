@@ -1,0 +1,25 @@
+git init -> To intialize git at the current repository. 
+
+git add . -> Add all the changes have been made yet to the to be committed stage. 
+
+git commit -m "message" -> Commit or upload the changes made now and give this message on uploding. 
+
+git status -> to know the status of your git=> to find out which files have be deleted , which have been made a new, which are the untracked files, etc. 
+
+git log -> to know who, when and what uploaded at the master tree, with the hash codes of each commits to go back to that stage in future with git restore command. 
+
+git reset <#hashcode> -> to get back to the stage with the hashcode. 
+
+git stash -> All these changes I made I do not want to commit them in master tree so please keep them in other folder and I will ask you to get them back for me in some time. 
+
+git stash pop -> Bring all the changes I made and asked you to store them in another folder now  bring them back to the unstaged area. 
+
+git stash clear -> hey listen, delete all the stuff I asked to store in some another folder I do not need them anymore.
+
+git remote add origin #url# -> This command adds the url of your github repo to the current local folder with the name origin given by you. 
+
+git remote -v -> This will tell all the url's linked to your current local folder. 
+
+git push origin main -> Push the main branch of origin to the remote repo on github. 
+
+git push origin <branch> -> Push the branch of origin  to the remote repo on github of mine.  
