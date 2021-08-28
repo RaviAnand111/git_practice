@@ -20,4 +20,4 @@ git remote add origin #url# -> This command adds the url of your github repo to 
 
 git remote -v -> This will tell all the url's linked to your current local folder. 
 
- 
+this is all so confusing 
